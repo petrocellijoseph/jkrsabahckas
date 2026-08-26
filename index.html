@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ms" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKAS - Jabatan Kerja Raya Sabah</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header & Navigasi -->
+    <header class="sticky top-0 z-50 bg-slate-900 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 text-white font-bold p-2 rounded">JKR</div>
+                <div>
+                    <h1 class="text-base font-bold leading-tight">CKAS Sabah</h1>
+                    <p class="text-xs text-slate-400">Cawangan Kejuruteraan Awam & Struktur</p>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#utama" class="hover:text-blue-400 transition">Utama</a>
+                <a href="#mengenai" class="hover:text-blue-400 transition">Mengenai Kami</a>
+                <a href="#direktori" class="hover:text-blue-400 transition">Direktori</a>
+                <a href="#hubungi" class="hover:text-blue-400 transition">Hubungi Kami</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-slate-300 focus:outline-none">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 px-4 pt-2 pb-4 space-y-2">
+            <a href="#utama" class="block py-2 hover:text-blue-400">Utama</a>
+            <a href="#mengenai" class="block py-2 hover:text-blue-400">Mengenai Kami</a>
+            <a href="#direktori" class="block py-2 hover:text-blue-400">Direktori</a>
+            <a href="#hubungi" class="block py-2 hover:text-blue-400">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <!-- Seksyen 1: Utama -->
+    <section id="utama" class="relative bg-slate-900 text-white py-24 min-h-[80vh] flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <span class="bg-blue-600/30 text-blue-400 border border-blue-500/30 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">Jabatan Kerja Raya Sabah</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold mt-4 leading-tight">Membina Infrastruktur Awam & Struktur Progresif</h2>
+            <p class="mt-4 text-slate-300 text-lg max-w-2xl">Pusat kecemerlangan teknikal untuk reka bentuk, penilaian, dan penyeliaan kejuruteraan awam dan struktur di Negeri Sabah.</p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="#mengenai" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold text-center transition">Terokai Perkhidmatan</a>
+                <a href="#hubungi" class="border border-slate-600 hover:bg-slate-800 text-slate-200 px-6 py-3 rounded-lg font-semibold text-center transition">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seksyen 2: Mengenai Kami -->
+    <section id="mengenai" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-900">Mengenai CKAS</h2>
+                <p class="mt-2 text-slate-600">Cawangan Kejuruteraan Awam & Struktur komited dalam memberikan kepakaran teknikal bagi pembangunan infrastruktur negeri.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Visi & Misi</h3>
+                    <p class="text-slate-600">Menjadi cawangan peneraju dalam mereka bentuk dan menyelia pembangunan infrastruktur yang selamat, mampan, dan berdaya tahan mengikut piawaian kejuruteraan tertinggi.</p>
+                </div>
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Fungsi Utama</h3>
+                    <ul class="text-slate-600 space-y-2 list-disc list-inside">
+                        <li>Reka bentuk struktur bangunan awam dan infrastruktur.</li>
+                        <li>Pemeriksaan teknikal, audit keselamatan, dan penilaian struktur.</li>
+                        <li>Khidmat nasihat kepakaran kejuruteraan awam.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seksyen 3: Direktori (Dinamik) -->
+    <section id="direktori" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900">Direktori Pegawai</h2>
+                    <p class="text-slate-600 mt-1">Senarai warga kerja Cawangan Kejuruteraan Awam & Struktur</p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <input type="text" id="search-input" placeholder="Cari nama atau jawatan..." class="px-4 py-2 border border-slate-300 rounded-lg w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+            </div>
+
+            <!-- Kontena Kad Direktori Dinamik -->
+            <div id="directory-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Dijana melalui JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seksyen 4: Hubungi Kami -->
+    <section id="hubungi" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Hubungi Kami</h2>
+                <p class="text-slate-600">Sila hubungi kami untuk sebarang pertanyaan atau urusan rasmi.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Maklumat Lokasi -->
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-blue-600 text-xl mt-1"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Alamat</h4>
+                            <p class="text-slate-600 text-sm mt-1">
+                                Cawangan Kejuruteraan Awam & Struktur,<br>
+                                Ibu Pejabat Jabatan Kerja Raya Sabah,<br>
+                                Jalan Sembulan, 88582 Kota Kinabalu, Sabah.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="text-blue-600 text-xl mt-1"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Telefon & Faks</h4>
+                            <p class="text-slate-600 text-sm mt-1">Tel: +6088-XXXXXX<br>Faks: +6088-XXXXXX</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="text-blue-600 text-xl mt-1"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">E-mel</h4>
+                            <p class="text-slate-600 text-sm mt-1">ckas.jkr@sabah.gov.my</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Borang Pertanyaan -->
+                <form class="bg-slate-50 p-6 border border-slate-200 rounded-xl space-y-4" name="contact" method="POST" data-netlify="true">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1">Nama Penuh</label>
+                        <input type="text" name="nama" required class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1">E-mel</label>
+                        <input type="email" name="email" required class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1">Mesej</label>
+                        <textarea name="mesej" rows="4" required class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 rounded-lg transition">Hantar Mesej</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 text-sm py-8 border-t border-slate-800 text-center">
+        <p>&copy; Cawangan Kejuruteraan Awam & Struktur, JKR Sabah. Hak Cipta Terelihara.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
