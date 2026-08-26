@@ -1,23 +1,191 @@
 [
   {
-    "nama": "Ir. Ahmad Bin Zulkifli",
-    "jawatan": "Ketua Penolong Pengarah",
-    "seksyen": "Pengurusan & Reka Bentuk",
-    "email": "ahmad.zulkifli@sabah.gov.my",
-    "telefon": "+6088-123456"
+    "nama": "PETROCELLI BIN JOSEPH",
+    "jawatan": "KETUA PENOLONG PENGARAH",
+    "gred": "J13",
+    "email": "petrocelli.joseph@sabah.gov.my",
+    "telefon": "0198108395"
   },
   {
-    "nama": "Dayang Noraini Binti Hassan",
-    "jawatan": "Jurutera Awam Penguasa",
-    "seksyen": "Unit Struktur",
-    "email": "noraini.hassan@sabah.gov.my",
-    "telefon": "+6088-123457"
+    "nama": "LYVIAWATY MOHD DAHLAN",
+    "jawatan": "PENOLONG PENGARAH",
+    "gred": "J10",
+    "email": "lyviawaty.mohddahlan@sabah.gov.my",
+    "telefon": "0104641378"
   },
   {
-    "nama": "Mohd Rizal Bin Abdullah",
-    "jawatan": "Penolong Jurutera",
-    "seksyen": "Unit Penilaian & Audit",
-    "email": "rizal.abdullah@sabah.gov.my",
-    "telefon": "+6088-123458"
+    "nama": "MICHELLE JEAN MICHAEL",
+    "jawatan": "JURUTERA",
+    "gred": "J10",
+    "email": "michellejean.michael@sabah.gov.my",
+    "telefon": "0168036545"
+  },
+  {
+    "nama": "CORDELIA PHILIP",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "cordelia.philip@sabah.gov.my",
+    "telefon": "0149599604"
+  },
+  {
+    "nama": "FARZANA BINTI WAILY",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "farzana.waily@sabah.gov.my",
+    "telefon": "0138917567"
+  },
+  {
+    "nama": "ALDRIGE ABDON",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "aldrige.abdon@sabah.gov.my",
+    "telefon": "0137469447"
+  },
+  {
+    "nama": "S MUHAMMAD ADLI BIN HASHIM",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "muhdadli.hashim@sabah.gov.my",
+    "telefon": "0177500501"
+  },
+  {
+    "nama": "ADI IZZUDDIN RAMLEE",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "adiizzuddin.ramlee@sabah.gov.my",
+    "telefon": "0116565 8108"
+  },
+  {
+    "nama": "SHUKRI BIN SULAIMAN",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "shukri.sulaiman@sabah.gov.my",
+    "telefon": "0128708028"
+  },
+  {
+    "nama": "MOHD BUKHARI BIN MOHD YUNUS",
+    "jawatan": "JURUTERA",
+    "gred": "J9",
+    "email": "mohdbukhari.mohdyunus@sabah.gov.my",
+    "telefon": "0192320720"
+  },
+  {
+    "nama": "SHAMIRAH NORLYANA BINTI SHAMSUDIN",
+    "jawatan": "PENOLONG JURUTERA",
+    "gred": "J5",
+    "email": "shamirah.shamsudin@sabah.gov.my",
+    "telefon": "0168234962"
+  },
+  {
+    "nama": "HAZRIMIE BIN PIRMAN",
+    "jawatan": "PENOLONG JURUTERA",
+    "gred": "J5",
+    "email": "hazrimie.pirman@sabah.gov.my",
+    "telefon": "0168467558"
+  },
+  {
+    "nama": "BIBIANA BINTI MOIPIL",
+    "jawatan": "PENOLONG JURUTERA",
+    "gred": "J5",
+    "email": "bibiana.moipil@sabah.gov.my",
+    "telefon": "01119550855"
+  },
+  {
+    "nama": "AHMAD DANIAL BIN SAPLIN",
+    "jawatan": "PENOLONG JURUTERA",
+    "gred": "J5",
+    "email": "danial.saplin@sabah.gov.my",
+    "telefon": "01119518266"
+  },
+  {
+    "nama": "JUNAIDI BIN ABD. RAHMAN",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J2",
+    "email": "junaidi.abdrahman@sabah.gov.my",
+    "telefon": "0168473220"
+  },
+  {
+    "nama": "MOHD AZMAN BIN KURUS",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J1",
+    "email": "mohdazman.kurus@sabah.gov.my",
+    "telefon": "0166436842"
+  },
+  {
+    "nama": "SELZIAH BINTI KILLIP",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J2",
+    "email": "selziah.killip@sabah.gov.my",
+    "telefon": "0138706785"
+  },
+  {
+    "nama": "DARREN DWEN DONNY",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J1",
+    "email": "darren.dwendonny@sabah.gov.my",
+    "telefon": "0138586983"
+  },
+  {
+    "nama": "MOHD NAZRENSAH BIN MOHD KHUSAHIREE",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J1",
+    "email": "nazrensah.khusahiree@sabah.gov.my",
+    "telefon": "01116035390"
+  },
+  {
+    "nama": "NUR HAFIZAH BINTI TUH",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J1",
+    "email": "nurhafizah.tuh@sabah.gov.my",
+    "telefon": "0105816206"
+  },
+  {
+    "nama": "ADRIEL ADRIAN MAJAWAI",
+    "jawatan": "PELUKIS PELAN",
+    "gred": "J1",
+    "email": "adriel.adrianmajawai@sabah.gov.my",
+    "telefon": "0147718187"
+  },
+  {
+    "nama": "FATIMAH BINTI GULZAMAN",
+    "jawatan": "PEMBANTU KHIDMAT AM",
+    "gred": "H1",
+    "email": "fatimah.gulzaman@sabah.gov.my",
+    "telefon": "01126880592"
+  },
+  {
+    "nama": "NUREVANNA ENNA BINTI JASNI",
+    "jawatan": "PEMBANTU OPERASI",
+    "gred": "N1",
+    "email": "nurevanna.jasni@sabah.gov.my",
+    "telefon": "01131510074"
+  },
+  {
+    "nama": "SHARIFAH NADZIRAH BINTI RUSMAN",
+    "jawatan": "PEMBANTU  KHIDMAT AM",
+    "gred": "H1",
+    "email": "sharifahn.rusman@sabah.gov.my",
+    "telefon": "0178946770"
+  },
+  {
+    "nama": "SITIAZAH JAMRIN",
+    "jawatan": "PEMBANTU  KHIDMAT AM",
+    "gred": "H1",
+    "email": "sitiazah.jamrin@sabah.gov.my",
+    "telefon": "0168389603"
+  },
+  {
+    "nama": "LORENCE BINSUN",
+    "jawatan": "PEMANDU KENDERAAN",
+    "gred": "H1",
+    "email": "lorence.binsun@sabah.gov.my",
+    "telefon": "0196615967"
+  },
+  {
+    "nama": "BREEZY ALFRED DENNIS",
+    "jawatan": "PEMANDU KENDERAAN",
+    "gred": "H1",
+    "email": "breezy.dennis@sabah.gov.my",
+    "telefon": "0168275587"
   }
 ]
