@@ -1,1 +1,23 @@
-
+[
+  {
+    "nama": "Ir. Ahmad Bin Zulkifli",
+    "jawatan": "Ketua Penolong Pengarah",
+    "seksyen": "Pengurusan & Reka Bentuk",
+    "email": "ahmad.zulkifli@sabah.gov.my",
+    "telefon": "+6088-123456"
+  },
+  {
+    "nama": "Dayang Noraini Binti Hassan",
+    "jawatan": "Jurutera Awam Penguasa",
+    "seksyen": "Unit Struktur",
+    "email": "noraini.hassan@sabah.gov.my",
+    "telefon": "+6088-123457"
+  },
+  {
+    "nama": "Mohd Rizal Bin Abdullah",
+    "jawatan": "Penolong Jurutera",
+    "seksyen": "Unit Penilaian & Audit",
+    "email": "rizal.abdullah@sabah.gov.my",
+    "telefon": "+6088-123458"
+  }
+]
